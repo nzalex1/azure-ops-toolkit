@@ -16,11 +16,3 @@ A collection of reusable scripts, commands, snippets, and utilities for Azure ad
 
 The repository is organised by technology and/or operational area.
 
-```text
-azure-ops-toolkit/
-├── powershell/
-├── azure-cli/
-├── kql/
-├── resource-graph/
-├── docs/
-└── README.md
