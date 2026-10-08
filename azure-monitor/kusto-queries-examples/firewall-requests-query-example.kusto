@@ -1,0 +1,6 @@
+AZFWApplicationRule
+//| where Fqdn == "australiaeast-1.in.applicationinsights.azure.com" 
+| where Action == "Deny"
+| where ipv4_is_in_range(SourceIp, '10.41.78.144/28') 
+| project SourceIp, Fqdn, Action, Policy
+| summarize count(Fqdn) by SourceIp,Action, Fqdn, Policy
