@@ -120,5 +120,3 @@ Deploy only files intended to be publicly accessible in the served directory. Ke
 ## References
 
 - [Azure App Service: configure Node.js apps](https://learn.microsoft.com/en-us/azure/app-service/configure-language-nodejs)
-- [PM2: serve static files and SPAs](https://pm2.keymetrics.io/docs/usage/expose/)
-- [PM2: foreground mode](https://pm2.keymetrics.io/docs/usage/specifics/)
