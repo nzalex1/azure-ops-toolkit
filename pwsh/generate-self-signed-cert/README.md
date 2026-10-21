@@ -1,5 +1,8 @@
 # Generate Development Certificates
 
+**Author:** Alex Degtyarev  
+**Repository:** [Azure Ops Toolkit](https://github.com/nzalex1/azure-ops-toolkit)
+
 [`generate-cert.ps1`](generate-cert.ps1) creates a self-signed root certificate and a web certificate signed by that root, then exports them for development or test use.
 
 ## Requirements
